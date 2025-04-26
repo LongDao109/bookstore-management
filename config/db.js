@@ -153,7 +153,7 @@ const Category = require("../models/Category");
 const connectDB = async () => {
     try {
         const conn = await mongoose.connect(
-            `mongodb+srv://user1:${process.env.MONGO_PASSWORD}@cluster0.zqtpc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+            `mongodb+srv://longdaoiuh:${process.env.MONGO_PASSWORD}@cluster0.2qeyrhk.mongodb.net/`,
             {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
